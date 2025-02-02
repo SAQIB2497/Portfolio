@@ -31,7 +31,7 @@ const SplashScreen = ({ onAnimationComplete }) => {
 
   return (
     <motion.div
-      className="fixed inset-0 bg-gray-900 flex items-center justify-center z-50"
+      className="fixed inset-0 bg-[#242424] flex items-center justify-center z-50"
       initial={{ opacity: 1 }}
       animate={{ opacity: 0 }}
       transition={{ delay: 4, duration: 1 }}
