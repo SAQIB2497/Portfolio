@@ -1,6 +1,6 @@
 import MERN from "../../public/MERN logo.jpeg";
 import ReactLogo from "../../public/reactjs.png";
-import Redux from "../../public/redux.png";
+import Redux from "../../public/Redux.png";
 import Firebase from "../../public/Firebase.png";
 
 function Projects() {
