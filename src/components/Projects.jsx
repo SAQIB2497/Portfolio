@@ -1,13 +1,41 @@
 import MERN from "../../public/MERN logo.jpeg";
+import ReactLogo from "../../public/reactjs.png";
+import Redux from "../../public/redux.png";
+import Firebase from "../../public/Firebase.png";
 
 function Projects() {
   const cardItem = [
     {
       id: 1,
+      logo: ReactLogo,
+      name: "Personal Portfolio",
+      description:
+        "A modern and fully responsive portfolio website showcasing my skills, projects, and experience.",
+      link: "https://saqiburrehman.netlify.app",
+    },
+    {
+      id: 2,
+      logo: Redux,
+      name: "Contact List App",
+      description:
+        "A simple contact management app that allows users to add, edit, and delete contacts with real-time data storage.",
+      link: "https://contactlistsaqib.netlify.app",
+    },
+    {
+      id: 3,
       logo: MERN,
-      name: "MERN Stack E-store",
-      description: "Responsive Bookstore Website built using the MERN stack! ",
-      link: "https://www.linkedin.com/posts/saqib-ur-rehman-1827522ba_mernstack-fullstackdevelopment-webdevelopment-activity-7288628163683745793-gPAn?utm_source=share&utm_medium=member_desktop",
+      name: "Bookstore App",
+      description:
+        "A simple bookstore app where users can experience a good-looking interface with secure authentication.",
+      link: "https://www.linkedin.com/posts/saqib-ur-rehman-1827522ba_mernstack-fullstackdevelopment-webdevelopment-activity-7288628163683745793-gPAn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEykF3IBxh2wbh_2miG0FKICk6w8LG2hLwc",
+    },
+    {
+      id: 4,
+      logo: Firebase,
+      name: "E-Store (E-Commerce Website)",
+      description:
+        "A hardware e-commerce platform with authentication, real-time database, and efficient state management, allowing users to browse products, add to cart, and place orders while admins manage inventory dynamically.",
+      link: "https://warsitrader.netlify.app/",
     },
   ];
 

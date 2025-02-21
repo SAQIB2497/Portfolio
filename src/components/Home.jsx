@@ -3,6 +3,7 @@ import { FaFacebookSquare, FaLinkedin, FaTwitter, FaInstagram } from "react-icon
 import { SiMongodb, SiExpress } from "react-icons/si";
 import { FaReact, FaNodeJs } from "react-icons/fa6";
 import { ReactTyped } from "react-typed";
+import { IoLogoFirebase } from "react-icons/io5";
 
 function Home() {
   return (
@@ -67,6 +68,9 @@ function Home() {
                 </div>
                 <div className="group">
                   <FaNodeJs className="text-2xl md:text-3xl group-hover:scale-110 group-hover:text-teal-400 duration-200 rounded-full border-[2px] cursor-pointer" />
+                </div>
+                <div className="group">
+                  <IoLogoFirebase  className="text-2xl md:text-3xl group-hover:scale-110 group-hover:text-teal-400 duration-200 rounded-full border-[2px] cursor-pointer" />
                 </div>
               </div>
             </div>
